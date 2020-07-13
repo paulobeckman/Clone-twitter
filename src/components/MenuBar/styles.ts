@@ -36,7 +36,7 @@ export const Logo = styled(Rocketseat)`
     width: 41px;
     height: 41px;
 
-    >path {
+    > path {
         fill: var(--twitter);
     }
 
@@ -77,7 +77,7 @@ export const MenuButton = styled.button`
         height: 40px;
 
         > span {
-            display: span;
+            display: none;
         }
 
         @media (min-width: 1280px) {
@@ -95,7 +95,7 @@ export const MenuButton = styled.button`
     border-radius: 25px;
 
     &:hover{
-        background: var(--twitter-dark--hover)
+        background: var(--twitter-dark-hover)
     }
 
     &:hover, &.active {
@@ -153,7 +153,7 @@ export const ProfileData= styled.div`
     }
 `;
 
-export const ExitIcon = styled(ExitIcon)`
+export const ExitIcon = styled(ExitToApp)`
     display: none;
 
     @media (min-width: 1280px){
