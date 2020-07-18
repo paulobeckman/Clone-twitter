@@ -1,44 +1,115 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/banner.png" />
+</h1>
 
-## Available Scripts
+<h4 align="center"> 
+	🚀 Clone Twitter 🚀
+</h4>
+  
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/paulobeckman/Clone-twitter?color=%2304D361">
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/paulobeckman/Clone-twitter">
+  
+  <a href="https://www.linkedin.com/in/paulobeckman/">
+    <img alt="Made by paulobeckman" src="https://img.shields.io/badge/made%20by-paulobeckman-%2304D361">
+  </a>
+	
+  
+  <a href="https://github.com/paulobeckman/Clone-twitter/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/paulobeckman/Clone-twitter">
+  </a>
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/paulobeckman/Clone-twitter/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/paulobeckman/Clone-twitter?style=social">
+  </a>
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Sobre o projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Clone Twitter é um projeto de clone da interface do usuário de forma responsiva do Twitter (parcial) para fins de estudo.
 
-### `yarn test`
+A responsividade foi bastante trabalhada então é possível abrir a interface no computador, tablet ou smartphone.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse projeto foi ensina pelo [Guilherme Rodz][gr] por meio da [Rocketseat][rs]
 
-### `yarn build`
+## 🎨 Layout
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O layout da aplicação está disponível no Figma:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<a href="https://www.figma.com/file/cjNh1bd93pbJBFOza25K7L/Twitter-Clone?node-id=1%3A2">
+  <img alt="Made by paulobeckman" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Web
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+	
+  <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/CloneTwitter.gif" width="800px">	
+		
+  <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/pagina1.png" width="400px">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/paginas2.png" width="400px">
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🛠 Tecnologias
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Learn More
+- [Node.js][nodejs]
+- [CSS][css]
+- [TypeScript][ts]
+- [Styled Components][sc]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Como rodar este projeto
+
+Podemos considerar este projeto como sendo divido em duas partes:
+1. Back End (arquivos server.js, routes.js e pasta public) 
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs]. 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+
+### 🎲 Rodando a aplicação web (Front End)
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/paulobeckman/Clone-twitter.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Clone-twitter
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+
+# O servidor inciará na porta:3000 - acesse http://localhost:3000 
+```
+
+
+## 📝 Licença
+
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](license) para saber mais.
+
+Feito por Paulo Beckman 👋🏽 [Entre em contato!](https://www.linkedin.com/in/paulo-beckman/)
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[license]: https://opensource.org/licenses/MIT
+[CSS]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
+[ts]: https://www.typescriptlang.org/
+[gr]: https://github.com/guilhermerodz
+[rs]: https://www.youtube.com/watch?v=K-8z_4xvT3o
+[sc]: https://styled-components.com/
