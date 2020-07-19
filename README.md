@@ -26,10 +26,14 @@
   </a>
 </p>
 
+## 🖥 Link do projeto
+
+https://5f1391538c76d3d7322d405f--keen-pike-8e6fb7.netlify.app/
+
 
 ## 💻 Sobre o projeto
 
-Clone Twitter é um projeto de clone da interface do usuário de forma responsiva do Twitter (parcial) para fins de estudo.
+🐦 Clone Twitter é um projeto de clone da interface do usuário de forma responsiva do Twitter (parcial) para fins de estudo.
 
 A responsividade foi bastante trabalhada então é possível abrir a interface no computador, tablet ou smartphone.
 
