@@ -54,9 +54,8 @@ O layout da aplicação está disponível no Figma:
 	
   <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/CloneTwitter.gif" width="800px">	
 		
-  <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/pagina1.png" width="400px">
+  <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/pagina1.png" width="800px">
 
-  <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/paginas2.png" width="400px">
 </p>
 
 ## 🛠 Tecnologias
