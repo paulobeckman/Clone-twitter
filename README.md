@@ -19,7 +19,7 @@
   <a href="https://github.com/paulobeckman/Clone-twitter/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/paulobeckman/Clone-twitter">
   </a>
-
+ 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/paulobeckman/Clone-twitter/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/paulobeckman/Clone-twitter?style=social">
