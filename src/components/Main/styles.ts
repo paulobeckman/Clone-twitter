@@ -3,7 +3,7 @@ import { ArrowLeft, Home, Search, Notifications, Email } from '../../styles/Icon
 
 export const Container = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 
     width: min(601px, 100%); 
 
@@ -92,7 +92,7 @@ const iconCSS = css `
     fill: var(--gray);
 
     &:hover,
-    &:active {
+    &.active {
         fill: var(--twitter);
     }
 `;

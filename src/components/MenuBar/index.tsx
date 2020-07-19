@@ -41,7 +41,9 @@ const MenuBar: React.FC = () => {
           </Topside>
 
           <Botside>
-              <Avatar />
+              <Avatar>
+                  <img src="https://pbs.twimg.com/profile_images/1191850742870618113/h7sMnTzY_400x400.jpg" alt=""/>
+              </Avatar>
 
               <ProfileData>
                   <strong>Paulo Beckman</strong>

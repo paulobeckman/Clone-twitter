@@ -26,7 +26,17 @@ export const Banner  = styled.div `
     position: relative;
 `;
 
+export const Banner_Img  = styled.div `
+   >img {
+    flex-shrink: 0;
+
+    width: 100%;
+    height: min(33vw, 199px);
+   }
+`;
+
 export const Avatar  = styled.div `
+    >img {
     width: max(45px, min(135px, 22vw));
     height: max(45px, min(135px, 22vw));
 
@@ -37,6 +47,8 @@ export const Avatar  = styled.div `
     position: absolute;
     bottom: max(-60px, -10vw);
     left: 15px;
+    }
+    
 `;
 
 export const ProfileData  = styled.div `

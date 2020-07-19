@@ -41,14 +41,17 @@ export const Body = styled.div `
 `;
 
 export const Avatar = styled.div `
-  width: 49px;
-  height: 49px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  background: var(--gray);
-  position: absolute;
-  top: 0;
-  left: 0;
+  >img {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: var(--gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
 `;
 
 export const Content = styled.div `
@@ -92,6 +95,10 @@ export const Dot = styled.div `
 export const Description = styled.p `
   font-size: 14px;
   margin-top: 4px;
+  > a {
+    text-decoration:none;
+    color: var(--twitter);
+  }
 `;
 
 export const ImageContent = styled.div `

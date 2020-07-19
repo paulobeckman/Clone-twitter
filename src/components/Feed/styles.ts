@@ -5,6 +5,16 @@ export const Container = styled.div`
     flex-direction: column;
 `;
 
+export const MenuOptions = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .selected {
+        color: var(--twitter);
+        border-bottom: 2px solid var(--twitter);
+    }
+`;
+
 export const Tab = styled.div`
     margin-top: 10px;
     padding: 11px 0 15px;
@@ -16,13 +26,15 @@ export const Tab = styled.div`
     outline: 0;
     cursor: pointer;
 
-    color: var(--twitter);
-    border-bottom: 2px solid var(--twitter);
+    color: var(--gray);
+
+    border-bottom: 1px solid var(--outline);
 
     &:hover {
         background: var(--twitter-dark-hover);
     }
 `;
+
 
 export const Tweets = styled.div`
     display: flex;

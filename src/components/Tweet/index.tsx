@@ -11,7 +11,9 @@ const Tweet: React.FC = () => {
           </Retweeted>
 
           <Body>
-              <Avatar/>
+              <Avatar>
+                 <img src="https://pbs.twimg.com/profile_images/1191850742870618113/h7sMnTzY_400x400.jpg" alt="avatar_img"/>
+              </Avatar>
 
               <Content>
                   <Header>
@@ -21,7 +23,7 @@ const Tweet: React.FC = () => {
                       <time>27 de jun</time>
                   </Header>
 
-                  <Description>Foguete não tem ré </Description>
+                  <Description>Foguete não tem ré <a href="https://rocketseat.com.br/">@Rocketseat</a></Description>
 
                   <ImageContent />
 

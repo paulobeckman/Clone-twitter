@@ -5,7 +5,7 @@ import List from '../List';
 import FollowSuggestion from '../FollowSuggestion';
 import News from '../News';
 
-import { Container, SearchWrapper, SearchInput, SearchIcon, Body } from './styles';
+import { Container, SearchWrapper, SearchInput, SearchIcon, Body, Know_More } from './styles';
 
 const SideBar: React.FC = () => {
   return (
@@ -21,43 +21,35 @@ const SideBar: React.FC = () => {
               title = "Talvez você curta"
               elements = {[
                 <FollowSuggestion 
-                  name = "Mateus Carneiro"
-                  nickname = "@mateuxcarneiro"
+                  name = "Paulo Beckman"
+                  nickname = "@paulobeckman"
                 />,
                 <FollowSuggestion 
-                  name = "Lucas Sá"
-                  nickname = "@lucassa17l"
+                  name = "Paulo Beckman"
+                  nickname = "@paulobeckman"
                 />,
                 <FollowSuggestion 
-                  name = "leozitor"
-                  nickname = "@leoamoedo10"
+                  name = "Paulo Beckman"
+                  nickname = "@paulobeckman"
                 />,
+                <Know_More>
+                  <span>Mostrar Mais</span>
+                </Know_More>
               ]}            
             />
             <List 
-              title = "Talvez você curta"
+              title = "O que está acontecendo"
               elements={[
                 <News />,
                 <News />,
-                <News />
+                <News />,
+                <News />,
+                <News />,
+                <Know_More>
+                  <span>Mostrar Mais</span>
+                </Know_More>
               ]}            
-            />,
-            <List 
-              title = "Talvez você curta"
-              elements={[
-                <News />,
-                <News />,
-                <News />
-              ]}            
-            />,
-            <List 
-              title = "Talvez você curta"
-              elements={[
-                <News />,
-                <News />,
-                <News />
-              ]}            
-            />,
+            />
           </Body>
           </StickyBox>
       </Container>

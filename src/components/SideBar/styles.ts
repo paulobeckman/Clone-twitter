@@ -74,3 +74,15 @@ export const Body= styled.div `
         margin-top: 15px;
     }
 `;
+
+export const Know_More= styled.div `
+    
+    margin-top:5px;
+    
+    > span {
+        color: var(--twitter);
+        font-size: 15px;
+        cursor: pointer;
+        
+    }
+`;

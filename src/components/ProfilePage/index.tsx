@@ -2,13 +2,19 @@ import React from 'react';
 
 import Feed from '../Feed';
 
-import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage, EditButton } from './styles';
+import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage, EditButton, Banner_Img} from './styles';
 
 const ProfilePage: React.FC = () => {
   return (
       <Container>
           <Banner>
-              <Avatar />
+              <Banner_Img>
+                <img src="https://pbs.twimg.com/profile_banners/713537396189564928/1572994364/1500x500" alt=""/>
+              </Banner_Img>
+
+              <Avatar>
+                <img src="https://pbs.twimg.com/profile_images/1191850742870618113/h7sMnTzY_400x400.jpg" alt="avatar-paulo"/>
+              </ Avatar > 
           </Banner>
 
           <ProfileData>
@@ -18,12 +24,12 @@ const ProfilePage: React.FC = () => {
             <h2>@paulobeckman</h2>
 
             <p>
-            Não sei se pode, mas aqui é um Fotógrafo Programador  <a href="https://rocketseat.com.br/">@Rocketseat</a>
+            Não sei se pode, mas aqui é um Fotógrafo Programador
             </p>
             <ul>
                 <li>
                     <LocationIcon />
-                    São Paulo, Brasil
+                    Santarém, Pará
                 </li>
                 <li>
                     <CakeIcon />

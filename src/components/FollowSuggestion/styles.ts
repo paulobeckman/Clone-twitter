@@ -9,7 +9,7 @@ export const Container = styled.div`
 
     > div {
         display: flex;
-        aling-items: center;
+        align-items: center;
     }
 `;
 
