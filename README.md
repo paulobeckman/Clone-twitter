@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="CloneTwitter" title="#CloneTwitter" src="./github-assets/banner.png" />
+    🚀 Clone Twitter 🚀
 </h1>
 
 <h4 align="center"> 
