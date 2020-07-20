@@ -28,7 +28,7 @@
 
 ## 🖥 Link do projeto
 
-https://5f1391538c76d3d7322d405f--keen-pike-8e6fb7.netlify.app/
+https://clonedotwitter.netlify.app/
 
 
 ## 💻 Sobre o projeto
